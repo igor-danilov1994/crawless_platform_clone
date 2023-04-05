@@ -1,0 +1,24 @@
+.Switcher {
+  display: flex;
+  height: 32px;
+  background-color: var(--orange50);
+  border-radius: 16px;
+  transform: rotate(-90deg);
+  padding: 3px;
+  cursor: pointer;
+
+  span {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--fg90);
+    align-self: end;
+  }
+}
+
+.active {
+  span {
+    align-self: start;
+  }
+}

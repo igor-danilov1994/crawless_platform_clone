@@ -1,0 +1,16 @@
+.ConnectToEdge {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  transform: rotate(-90deg);
+  margin-top: 100px;
+
+  p {
+    display: block;
+    color: var(--orange50);
+    height: 20px;
+    width: 400px;
+    white-space: nowrap;
+    margin-right: 20px;
+  }
+}
