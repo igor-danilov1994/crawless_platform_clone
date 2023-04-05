@@ -1,3 +1,5 @@
-import { TabPanel } from './TabPanel/TabPanel';
+import { TabList } from './TabList';
+import { TabPanel } from './TabPanel';
+import { HomePanel } from './HomePanel';
 
-export { TabPanel };
+export { TabPanel, TabList, HomePanel };

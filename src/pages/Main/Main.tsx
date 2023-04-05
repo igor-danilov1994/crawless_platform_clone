@@ -1,1 +1,1 @@
-export const Main = () => <div>MainPage</div>;
+export const MainPage = () => <div>Welcome</div>;

@@ -6,7 +6,7 @@ import { routeConfig } from './route';
 function AppRouter() {
   const isAuth = true;
 
-  const routes = useMemo(() => Object.values(routeConfig).filter((route) => !(route.authOnly && !isAuth)), [isAuth]);
+  const routes = useMemo(() => Object.values(routeConfig).filter((route) => route), [isAuth]);
 
   return (
     <Routes>

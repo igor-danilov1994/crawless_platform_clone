@@ -2,8 +2,9 @@
   display: flex;
   height: 32px;
   background-color: var(--orange50);
+  opacity: 0.5;
   border-radius: 16px;
-  transform: rotate(-90deg);
+  //transform: rotate(-90deg);
   padding: 3px;
   cursor: pointer;
 
@@ -13,12 +14,15 @@
     height: 10px;
     border-radius: 50%;
     background-color: var(--fg90);
-    align-self: end;
+    align-self: start;
   }
 }
 
 .active {
+  opacity: 1;
+  background-color: var(--orange50);
+
   span {
-    align-self: start;
+    align-self: end;
   }
 }

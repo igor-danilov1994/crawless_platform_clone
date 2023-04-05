@@ -1,0 +1,38 @@
+.Tab {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--bg30);
+  padding: 0 13px;
+  height: 32px;
+  border: 1px solid;
+  border-color: var(--bg10);
+
+  span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--fg70);
+    margin: 0 8px;
+  }
+
+  &:hover {
+    .hidden {
+      opacity: 1;
+    }
+  }
+
+}
+
+.active {
+  background-color: var(--bg70);
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  pointer-events: none;
+  opacity: 0;
+}

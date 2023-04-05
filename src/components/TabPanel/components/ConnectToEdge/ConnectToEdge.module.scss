@@ -1,16 +1,38 @@
 .ConnectToEdge {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   transform: rotate(-90deg);
-  margin-top: 100px;
+
+  .Switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-90deg);
+  }
 
   p {
-    display: block;
+    padding: 0;
     color: var(--orange50);
-    height: 20px;
-    width: 400px;
     white-space: nowrap;
     margin-right: 20px;
+    margin-bottom: 3px;
+    opacity: 0.5;
+  }
+
+  svg {
+    margin-right: 10px;
+    transform: rotate(90deg);
+  }
+
+  .info {
+    cursor: pointer;
+  }
+}
+
+.active{
+  p {
+    opacity: 1;
   }
 }
