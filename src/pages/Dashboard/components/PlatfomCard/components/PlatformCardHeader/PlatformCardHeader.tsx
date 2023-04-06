@@ -1,6 +1,6 @@
 import { FC, memo } from 'react';
 
-import { ReactComponent as OptionsIcon } from 'assets/platformCardHeaderOptions.svg';
+import { ReactComponent as OptionsIcon } from 'assets/options.svg';
 
 import { Platform } from 'types';
 import styles from './PlatformCardHeader.module.scss';
