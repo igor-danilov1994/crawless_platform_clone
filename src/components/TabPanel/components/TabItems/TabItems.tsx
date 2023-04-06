@@ -2,7 +2,7 @@ import { memo } from 'react';
 import style from './TabItems.module.scss';
 import { ReactComponent as HomeIcon } from './icons/home.svg';
 import { ReactComponent as StoreIcon } from './icons/store.svg';
-import { ReactComponent as BooksIcon } from './icons/books.svg';
+import { ReactComponent as BooksIcon } from './icons/book.svg';
 
 const TabItemsList = [
   {

@@ -1,5 +1,6 @@
-import './App.scss';
 import { useCallback, useState } from 'react';
+
+import './App.scss';
 
 import { ReactComponent as WelcomeIcon } from 'assets/welcomeIcon.svg';
 import { ReactComponent as DashboardsIcon } from 'assets/dashboards.svg';
@@ -11,7 +12,7 @@ import { ReactComponent as StorageIcon } from 'assets/mongo.svg';
 import { ReactComponent as ProjectIcon } from 'assets/project.svg';
 import { ReactComponent as DocsIcon } from 'assets/bookmark.svg';
 
-import { HomePanel, TabList, TabPanel } from './components';
+import { HomePanel, TabHeader, TabList, TabPanel } from './components';
 import { AppRouter } from './router';
 import { ITab } from './types';
 import { AppRoutes } from './router/route';
@@ -79,6 +80,7 @@ function App() {
       </div>
       <div className="container">
         <TabList activeTabList={activeTabs} onCloseTab={onCloseTab} />
+        {!!activeTabs.length && <TabHeader />}
         <AppRouter />
       </div>
     </div>

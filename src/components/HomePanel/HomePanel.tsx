@@ -1,7 +1,7 @@
 import { FC, memo } from 'react';
 
 import { ITab } from 'types';
-import { HonePanelItem } from './components';
+import { HomePanelItem } from './components';
 import styles from './HomePanel.module.scss';
 
 interface HomePanelProps {
@@ -12,7 +12,7 @@ interface HomePanelProps {
 export const HomePanel: FC<HomePanelProps> = memo(({ tabs, onOpenTab }) => (
   <div className={styles.HomePanel}>
     {tabs.map((item) => (
-      <HonePanelItem tab={item} onOpenTab={onOpenTab} />
+      <HomePanelItem tab={item} onOpenTab={onOpenTab} />
     ))}
   </div>
 ));

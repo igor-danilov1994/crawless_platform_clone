@@ -2,14 +2,14 @@ import { memo, FC } from 'react';
 import { Link } from 'react-router-dom';
 
 import { ITab } from 'types';
-import style from './HonePanelItem.module.scss';
+import style from './HomePanelItem.module.scss';
 
 interface HonePanelItemProps {
   tab: ITab;
   onOpenTab: (tab: ITab) => void;
 }
 
-export const HonePanelItem: FC<HonePanelItemProps> = memo(({ tab, onOpenTab }) => {
+export const HomePanelItem: FC<HonePanelItemProps> = memo(({ tab, onOpenTab }) => {
   const { title, icon } = tab;
 
   const onClickHandler = () => {

@@ -1,0 +1,38 @@
+.OptionsBar {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  border-radius: 4px;
+
+
+  svg {
+    fill: #464753;
+    cursor: pointer;
+  }
+
+  .lime50 {
+    svg {
+      fill: var(--lime50);
+    }
+  }
+
+  .gold50 {
+    svg {
+      fill: var(--gold50);
+    }
+  }
+
+  .orange70 {
+    svg {
+      fill: var(--orange70);
+    }
+  }
+
+  .magenta50 {
+    svg {
+      fill: var(--magenta50);
+    }
+  }
+
+}

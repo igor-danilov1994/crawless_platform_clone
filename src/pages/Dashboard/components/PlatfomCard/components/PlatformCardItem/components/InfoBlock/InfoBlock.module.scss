@@ -1,0 +1,62 @@
+
+.InfoBlock {
+  .name {
+    display: flex;
+    align-content: center;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 8px;
+    }
+  }
+
+  .value {
+    display: flex;
+    align-content: center;
+    margin-top: 11px;
+
+    span {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 8px;
+    }
+
+  }
+}
+
+.lime50 {
+  color: var(--lime50);
+
+  svg {
+    fill: var(--lime50);
+  }
+}
+
+.gold50 {
+  color: var(--gold50);
+
+  svg {
+    fill: var(--gold50);
+  }
+}
+
+.orange70 {
+  color: var(--orange70);
+
+  svg {
+    fill: var(--orange70);
+  }
+}
+
+.magenta50 {
+  color: var(--magenta50);
+
+  svg {
+    fill: var(--magenta50);
+  }
+}
